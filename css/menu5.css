@@ -45,7 +45,7 @@ iframe{
     	background-color: white;
     	width: 950px;
     	
-    	min-height: 500px;
+    	min-height:500px;
     	display: flex;
 text-align: center;    	
 
@@ -95,7 +95,7 @@ main{
 
 	
 }
-@media (max-width: 600px){
+@media (max-width: 315px){
 body{
 	background: #000;
 }
@@ -103,7 +103,7 @@ img{
 	display: none;
 }
 iframe{
-	max-width: 600px;
+	max-width: 315px;
 }
 }
 
