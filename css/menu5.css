@@ -95,5 +95,16 @@ main{
 
 	
 }
+@media (max-width: 400px){
+body{
+	background: #000;
+}
+img{
+	display: none;
+}
+iframe{
+	max-width: 400px;
+}
+}
 
    
