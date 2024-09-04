@@ -95,7 +95,7 @@ main{
 
 	
 }
-@media (min-width: 270px){
+@media (max-width: 210px){
 body{
 	background: #000;
 }
@@ -103,7 +103,7 @@ img{
 	display: none;
 }
 iframe{
-	min-width: 270px;
+	max-width: 210px;
 }
 }
 
