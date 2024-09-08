@@ -95,7 +95,7 @@ main{
 
 	
 }
-@media (width<480px){
+@media (width<250px){
 body{
 	background: url(img/insignia.jpg);
 	background: #000;
