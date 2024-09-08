@@ -43,11 +43,11 @@ iframe{
    
     iframe{
     	background-color: white;
-    	width: 950px;
+    	min-width:850px;
     	
-    	min-height:500px;
-    	display: flex;
-text-align: center;    	
+    	min-height: 500px;
+    	
+        text-align: center;   	
 
 }
 
