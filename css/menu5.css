@@ -95,16 +95,24 @@ main{
 
 	
 }
-@media (width<800px){
+@media (width<480px){
 body{
+	background: url(img/insignia.jpg);
 	background: #000;
 }
 img{
 	display: none;
 }
 iframe{
-	max-width: 210px;
+	min-width: 480px;
+	font-size: 20px;
+}
+#regi{
+	color: blue;
+	font-size: 25px;
+}
+h3{
+	font-size: 25PX;
+	color: yellow;
 }
 }
-
-   
