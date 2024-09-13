@@ -86,7 +86,7 @@ h3{
 	border-radius: 5px;
 	background-color: #117864;
 	color: white;
-	font-size: 16px;
+	font-size: 30px;
 	padding: 8px;
 }
 main{
@@ -115,4 +115,18 @@ h3{
 	font-size: 25PX;
 	color: yellow;
 }
+}
+h5 ,h4{
+	font-size: 55PX;
+	color: #FFFF00;
+	text-align: center;
+	font-weight: 800;
+
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.textoso{
+	background: #E74C3C;
+	line-height: 10%;
 }
