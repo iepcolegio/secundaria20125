@@ -1,0 +1,160 @@
+<html>
+  <head>
+    <title></title>
+    <meta content="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style></style>
+    <script type="text/javascript">
+    (function(document) {
+      'use strict';
+
+      var LightTableFilter = (function(Arr) {
+
+        var _input;
+
+        function _onInputEvent(e) {
+          _input = e.target;
+          var tables = document.getElementsByClassName(_input.getAttribute('data-table'));
+          Arr.forEach.call(tables, function(table) {
+            Arr.forEach.call(table.tBodies, function(tbody) {
+              Arr.forEach.call(tbody.rows, _filter);
+            });
+          });
+        }
+
+        function _filter(row) {
+          var text = row.textContent.toLowerCase(), val = _input.value.toLowerCase();
+          row.style.display = text.indexOf(val) === -1 ? 'none' : 'table-row';
+        }
+
+        return {
+          init: function() {
+            var inputs = document.getElementsByClassName('light-table-filter');
+            Arr.forEach.call(inputs, function(input) {
+              input.oninput = _onInputEvent;
+            });
+          }
+        };
+      })(Array.prototype);
+
+      document.addEventListener('readystatechange', function() {
+        if (document.readyState === 'complete') {
+          LightTableFilter.init();
+        }
+      });
+
+    })(document);
+    </script>
+  </head>
+  <body>
+
+    <div class="container">
+    	<p align="center">
+      <div style="height:50px"></div>
+      <h1>ESTUDIANTES DEL NIVEL SECUNDARIO</h1>
+      <h4><b>Codigo Modular: 0857011</b></h4>
+      <p class="lead">
+
+<div class="palabra">
+            
+             
+  <h6><a class="hora" href="https://docs.google.com/document/d/1SfVXeFBkWzY8RVL6iLyyM9n1vrNgGUsQ/edit?usp=sharing&ouid=101412250819639092114&rtpof=true&sd=true" target="_blank">Solicitud</a></h6>
+          
+  <h6><a class="hora" href="https://docs.google.com/document/d/185G4PoHWZUIs8dvBoWWvQuqgOd12zXZ5/edit?usp=sharing&ouid=101412250819639092114&rtpof=true&sd=true" target="_blank">Resolucion de Vacante</a></h6>
+            
+  <h6><a class="hora" href="https://docs.google.com/document/d/1i1jgF-cJnQ4xeBVSEumKPZco7RvpVQek/edit?usp=sharing&ouid=101412250819639092114&rtpof=true&sd=true" target="_blank">Registro de incidenicias</a></h6>
+            
+  <h6><a class="hora" href="https://docs.google.com/document/d/1q89L6ylvlwgkH8l0qAWtbyqos1Kb-3fq/edit?usp=sharing&ouid=101412250819639092114&rtpof=true&sd=true" target="_blank">Oficio</a></h6>
+            
+  <h6><a class="hora" href="https://drive.google.com/file/d/1LkefzDLuXp1DSE8z72gvzo9oDbwfqjgD/view?usp=sharing" target="_blank">FUT UGEL 08</a></h6>
+
+  <h6><a class="hora" href="https://docs.google.com/document/d/1uptdnTKKQLh3wuPKxAWlM9NdQm5WL_4a/edit?usp=sharing&ouid=101412250819639092114&rtpof=true&sd=true" target="_blank">FUT Rosario</a></h6>
+          
+  <h6><a class="hora" href="https://docs.google.com/document/d/1vvpXL4OdUFoWMwfueNQuKapZJHU6YWRt/edit?usp=sharing&ouid=101412250819639092114&rtpof=true&sd=true" target="_blank">Declaracion Jurada 2</a></h6>
+            
+  <h6><a class="hora" href="https://docs.google.com/document/d/1vvpXL4OdUFoWMwfueNQuKapZJHU6YWRt/edit?usp=sharing&ouid=101412250819639092114&rtpof=true&sd=true" target="_blank">Declaracion Jurada 1</a></h6>
+            
+  <h6><a class="hora" href="https://docs.google.com/document/d/1IUG8JYCK3_xFrTLb2wkvS48_5zwPgqzI/edit?usp=sharing&ouid=101412250819639092114&rtpof=true&sd=true" target="_blank">Constancia de Vacante</a></h6>
+            
+  <h6><a class="hora" href="https://docs.google.com/document/d/1lKUpnKnm30EY_BzgOOh6J0BleerG9cHc/edit?usp=sharing&ouid=101412250819639092114&rtpof=true&sd=true" target="_blank">Constancia de Trabajo</a></h6>
+
+            
+</div>
+</p>
+<br>
+
+      <hr>
+</p>
+<style type="text/css">
+.hora{
+  color: white;
+  font-size: 20px;
+}
+	table.order-table{
+		font-size: 12px;
+		border: 1px solid #CCC; 
+		font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+	} 
+	.order-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.order-table th {
+		background-color: #104E8B; 
+		color: #FFF;
+		font-weight: bold;
+    padding: 5px;
+	}
+	h1, h4 ,h3{
+		text-align: center;
+
+	}
+  h1{
+    margin-top: -60px;
+  }
+.central{
+  justify-content: center;
+}
+.imagener{
+  margin-top: 30px;
+}
+h3{
+  margin-top: -35px;
+}
+h1 h3{
+  margin-bottom: 50px;
+}
+h6{
+  font-size: 20px;
+  background: #008080;
+  font-weight: 15px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #454545;
+}
+.palabra{
+justify-content: center;
+  margin: 30px;
+  margin-top: -4px;
+}
+.lead{
+  text-align: center;
+}
+@media (width<480px){
+#corto{
+  background: white;
+}
+th{
+  font-size: 8.5px;
+}
+td{
+  font-size: 7px;
+}
+}
+</style>
+
+  </body>
+</html>
