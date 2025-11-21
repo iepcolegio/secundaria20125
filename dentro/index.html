@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Botón con Desglose por Clic</title>
+
+<style>
+    .boton {
+        width: 200px;
+        padding: 12px;
+        background: #3498db;
+        color: white;
+        border: none;
+        display: block;
+        text-align: center;
+        margin: 10px auto;
+        cursor: pointer;
+        font-size: 18px;
+        border-radius: 8px;
+        transition: 0.3s;
+    }
+
+    .boton:hover {
+        background: #217dbb;
+    }
+
+    /* submenu escondido */
+    .submenu {
+        width: 200px;
+        margin: 0 auto;
+        display: none;
+    }
+
+    .submenu button {
+        width: 200px;
+        padding: 10px;
+        background: #2ecc71;
+        color: white;
+        border: none;
+        display: block;
+        margin-top: 5px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    .submenu button:hover {
+        background: #25a35a;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="contenedor">
+    <button class="boton" onclick="toggleMenu()">LUNES ▼</button>
+
+    <div class="submenu" id="menuGrados">
+        <button onclick="window.open('LUNES/lunesP.html', '_blank')">1° Grado</button>
+        <button onclick="window.open('LUNES/lunesS.html', '_blank')">2° Grado</button>
+        <button onclick="window.open('LUNES/lunesT.html', '_blank')">3° Grado</button>
+        <button onclick="window.open('LUNES/lunesC.html', '_blank')">4° Grado</button>
+        <button onclick="window.open('LUNES/lunesQ.html', '_blank')">5° Grado</button>
+    </div>
+</div>
+
+<div class="contenedor">
+    <button class="boton" onclick="toggleMenu2()">MARTES ▼</button>
+
+    <div class="submenu" id="menuGrados2">
+        <button onclick="window.open('MARTES/martesP.html', '_blank')">1° Grado</button>
+        <button onclick="window.open('MARTES/martesS.html', '_blank')">2° Grado</button>
+        <button onclick="window.open('MARTES/martesT.html', '_blank')">3° Grado</button>
+        <button onclick="window.open('MARTES/martesC.html', '_blank')">4° Grado</button>
+        <button onclick="window.open('MARTES/martesQ.html', '_blank')">5° Grado</button>
+    </div>
+</div>
+
+<div class="contenedor">
+    <button class="boton" onclick="toggleMenu3()">MIERCOLES ▼</button>
+
+    <div class="submenu" id="menuGrados3">
+        <button onclick="window.open('MIERCOLES/miercolesP.html', '_blank')">1° Grado</button>
+        <button onclick="window.open('MIERCOLES/miercolesS.html', '_blank')">2° Grado</button>
+        <button onclick="window.open('MIERCOLES/miercolesT.html', '_blank')">3° Grado</button>
+        <button onclick="window.open('MIERCOLES/miercolesT.html', '_blank')">4° Grado</button>
+        <button onclick="window.open('MIERCOLES/miercolesQ.html', '_blank')">5° Grado</button>
+    </div>
+</div>
+
+<div class="contenedor">
+    <button class="boton" onclick="toggleMenu4()">JUEVES ▼</button>
+
+    <div class="submenu" id="menuGrados4">
+        <button onclick="window.open('JUEVES/juevesP.html', '_blank')">1° Grado</button>
+        <button onclick="window.open('JUEVES/juevesS.html', '_blank')">2° Grado</button>
+        <button onclick="window.open('JUEVES/juevesT.html', '_blank')">3° Grado</button>
+        <button onclick="window.open('JUEVES/juevesT.html', '_blank')">4° Grado</button>
+        <button onclick="window.open('JUEVES/juevesQ.html', '_blank')">5° Grado</button>
+    </div>
+</div>
+<div class="contenedor">
+    <button class="boton" onclick="toggleMenu5()">VIERNES ▼</button>
+
+    <div class="submenu" id="menuGrados5">
+        <button onclick="window.open('VIERNES/viernesP.html', '_blank')">1° Grado</button>
+        <button onclick="window.open('VIERNES/viernesS.html', '_blank')">2° Grado</button>
+        <button onclick="window.open('VIERNES/viernesT.html', '_blank')">3° Grado</button>
+        <button onclick="window.open('VIERNES/viernesT.html', '_blank')">4° Grado</button>
+        <button onclick="window.open('VIERNES/viernesQ.html', '_blank')">5° Grado</button>
+    </div>
+</div>
+<script>
+    function toggleMenu() {
+        var menu = document.getElementById("menuGrados");
+
+        if (menu.style.display === "block") {
+            menu.style.display = "none";
+        } else {
+            menu.style.display = "block";
+        }
+    }
+</script>
+<script>
+    function toggleMenu2() {
+        var menu = document.getElementById("menuGrados2");
+         
+        if (menu.style.display === "block") {
+            menu.style.display = "none";
+        } else {
+            menu.style.display = "block";
+        }
+    }
+</script>
+<script>
+    function toggleMenu3() {
+        var menu = document.getElementById("menuGrados3");
+         
+        if (menu.style.display === "block") {
+            menu.style.display = "none";
+        } else {
+            menu.style.display = "block";
+        }
+    }
+</script>
+<script>
+    function toggleMenu4() {
+        var menu = document.getElementById("menuGrados4");
+         
+        if (menu.style.display === "block") {
+            menu.style.display = "none";
+        } else {
+            menu.style.display = "block";
+        }
+    }
+</script>
+<script>
+    function toggleMenu5() {
+        var menu = document.getElementById("menuGrados5");
+         
+        if (menu.style.display === "block") {
+            menu.style.display = "none";
+        } else {
+            menu.style.display = "block";
+        }
+    }
+</script>
+</body>
+</html>
+
